@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue-700);
+    color: var(--blue-100);
+    padding: var(--size-1);
+}
+
+.settings{
+    background-color: var(--blue-700);
+    color: var(--blue-100);
+    border: solid 1px var(--blue-700);
+    height: 4em;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.deg{
+    height: 20px;
+    background: linear-gradient(to bottom, var(--blue-700), var(--blue-100));
+}
+
+.settings:hover{
+    background-color: var(--magenta-600);
+    color: var(--magenta-200);
+}

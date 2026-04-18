@@ -1,0 +1,9 @@
+@import 'assets/variables';
+@import 'parts/header';
+@import 'parts/main';
+@import 'parts/setMenu';
+
+body{
+    margin:0;
+    background-color: var(--blue-100);
+}

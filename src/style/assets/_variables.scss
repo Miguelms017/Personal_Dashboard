@@ -1,0 +1,26 @@
+:root{
+    // colors
+
+    //primary
+    --blue-100: hsl(235, 68%, 96%);
+    --blue-300: hsl(235, 68%, 76%);
+    --blue-500: hsl(235, 68%, 56%);
+    --blue-700: hsl(235, 68%, 36%);
+    --blue-900: hsl(235, 68, 16%);
+
+    //secondary
+    --magenta-200: hsl(345, 89%, 89%);
+    --magenta-400: hsl(345, 89%, 69%);
+    --magenta-600: hsl(345, 89%, 49%);
+    --magenta-800: hsl(345, 89%, 29%);
+
+    // typography
+
+    // sizes
+    --size-1: 1em;
+    --size-2: 1.5em;
+    --size-3: 2em;
+    --size-4: 2.5em;
+    --size-5: 3em;
+    --headers: 4em;
+}

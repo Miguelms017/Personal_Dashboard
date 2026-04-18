@@ -1,0 +1,38 @@
+#settings_menu{
+    background-color: rgba(0,0,0,0.5);
+    padding: 15em;
+    position: fixed;
+    inset: 0;
+    display: none;
+}
+
+.container{
+    background-color: var(--blue-500);
+    padding: 25px;
+    border-radius: 20px;
+    color: white;
+}
+
+.newUser{
+    height: 3em;
+    width: 50%;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+#changeUser, #setImage{
+    background-color: var(--magenta-600);
+    color: white;
+    border: 1px solid var(--magenta-600);
+    height: 3em;
+    border-radius: 15px;
+}
+
+#leave{
+    background-color: var(--magenta-600);
+    color: white;
+    border: 1px solid var(--magenta-600);
+    height: 3em;
+    width: 5em;
+    border-radius: 15px;
+}

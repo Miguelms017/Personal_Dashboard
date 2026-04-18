@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Dashboard</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="title">[Dashboard]</h1>
+        <button class="settings">settings</button>
+    </header>
+    <div class="deg"></div>
+    <main>
+        <div class="main">
+            <div class="top">
+                <div class="profile">
+                    <div class="photo">
+                        <!--
+                        <img src="https://i.pravatar.cc/125" alt="profile">
+                        -->
+                        <img src="https://cdn.vectorstock.com/i/500p/46/76/gray-male-head-placeholder-vector-23804676.jpg" alt="profile" height="125" width="125">
+                    </div>
+                    <h2 class="hero_Welcome">Hello [USER]</h2>
+                </div>
+                <div class="weather">
+                    <p class="hero_Weather">Today's Forecast</p>
+                    <h2 id="local">[City]</h2>
+                    <h1 id="CurrTemp">00</h1>
+                    <div id="forecast">
+                        <p id="MaxTemp">00</p>
+                        <p id="MinTemp">00</p>
+                    </div>
+                    <p id="Prec">0%</p>
+                </div>
+                <div class="music">
+                    <h2>Music</h2>
+                </div>
+            </div>
+            <div class="shortcut">
+                <div class="shortHead">
+                    <h2>Shortcuts</h2>
+                    <button class="deleteShort">delete</button>
+                </div>
+                <div class="shorts">
+                    <div class="order">
+                        <div class="link">
+                            <a href="https://www.google.com">
+                                <img class="icons" width="100px" height="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/330px-Google_%22G%22_logo.svg.png">
+                                <p>Google</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="link" id="newShort">
+                        <a href="">
+                            <img class="icons" width="100px" height="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Plus_symbol.svg/960px-Plus_symbol.svg.png?_=20081122110508">
+                            <p>New Shortcut</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="notes">
+                    <div class="NoteTitle">
+                        <h2>Notes</h2>
+                        <button class="AddNote">+</button>
+                    </div>
+                    <div class="content"></div>
+                </div>
+                <div class="rand">
+                    <h2>Shortcut of the Day</h2>
+                </div>
+            </div>
+        </div>
+        <div id="settings_menu">
+            <div class="container">
+                <h1>Settings</h1>
+                <hr>
+                <h2>Username</h2>
+                <input type="text" class="newUser" placeholder="Insert your new username">
+                <button id="changeUser">Change</button>
+                <hr>
+                <h2>User Image Profile</h2>
+                <input type="file" class="newimage">
+                <button id="setImage">Set Profile</button>
+                <br>
+                <br>
+                <button id="leave">exit</button>
+            </div>
+        </div>
+        <script type="module" src="script/main.js"></script>
+    </main>
+    <footer></footer>
+</body>
+</html>
