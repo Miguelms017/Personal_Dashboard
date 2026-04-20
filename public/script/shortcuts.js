@@ -27,7 +27,7 @@ export function newShort(event){
             list = list + `
             <div class="link">
             <a href="http://${link}">
-            <img class="icons" width="100px" height="100px" src="">
+            <img class="icons" width="100px" height="100px" src="https://s2.googleusercontent.com/s2/favicons?sz=256&domain_url=https://${link}">
             <p>${title}</P>
             </a>
             <button class="eraseShort">X</button>
