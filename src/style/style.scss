@@ -1,9 +1,11 @@
-@import 'assets/variables';
-@import 'parts/header';
-@import 'parts/main';
-@import 'parts/setMenu';
+@use 'assets/variables';
+@use 'parts/header';
+@use 'parts/main';
+@use 'parts/setMenu';
+@use 'assets/typography';
 
 body{
     margin:0;
     background-color: var(--blue-100);
+    font-family: var(--ff-text);
 }

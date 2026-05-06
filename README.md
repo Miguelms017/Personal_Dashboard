@@ -34,3 +34,6 @@ This project counts with:
 + widget functionality done
 + Creation and removal of shortcuts done
 + customization of profile photo done
+
+[Beta 1.0.1]
++ Fonts Added

@@ -39,6 +39,10 @@
     height: 20em;
     border-radius: 35px;
     padding: 15px;
+    font-family: var(--ff-weather);
+    #currTemp{
+        font-family: var(--ff-wnum);
+    }
 }
 
 .music{
