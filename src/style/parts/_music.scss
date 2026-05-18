@@ -1,0 +1,55 @@
+h3{
+  color: #999999;
+}
+
+#container{
+    text-align: center;
+}
+
+#buttons{
+  justify-content: center;
+  display: flex;
+  gap: 55px;
+}
+#play{
+  width: 25px;
+  height:25px;
+  background-color: #999999;
+  clip-path: polygon(100% 50%, 0% 0%, 0% 100%)
+}
+
+#a{
+  width: 9px;
+  height: 25px;
+  background-color: #999999;
+}
+
+#b{
+  width: 17px;
+  height:25px;
+  background-color: #999999;
+  clip-path: polygon(0% 50%, 100% 100%, 100% 0%)
+}
+
+#c{
+  width: 17px;
+  height:25px;
+  background-color: #999999;
+  clip-path: polygon(100% 50%, 0% 0%, 0% 100%)
+}
+
+#past, #pause, #next{
+  display: flex;
+  flex-direction: row;
+}
+
+#pause{
+  gap: 8px;
+  display: none;
+}
+
+#album{
+  background-color: #aaaaaa;
+  width: 10ch;
+  height: 10ch;
+}

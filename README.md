@@ -37,3 +37,6 @@ This project counts with:
 
 [Beta 1.0.1]
 + Fonts Added
+
+[Beta 1.0.2]
++ Music section added (*not working, under construction*) 
