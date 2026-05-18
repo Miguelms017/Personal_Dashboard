@@ -2,6 +2,7 @@ import { deleteShort, newShort } from "./shortcuts.js";
 import { deleteNote, newNote } from "./notes.js";
 import { loadweather } from "./weather.js";
 import { display } from "./setmenu.js";
+import { music } from "./music.js";
 
 
 // Retrieve the pervious set up username
@@ -61,12 +62,4 @@ document.querySelector(".AddNote").addEventListener("click", newNote);
 document.querySelector(".content").addEventListener("click", deleteNote);
 
 // music
-document.getElementById("play").addEventListener("click", function() {
-    document.getElementById("play").style.display = "none";
-    document.getElementById("pause").style.display= "flex";
-});
-
-document.getElementById("pause").addEventListener("click", function() {
-    document.getElementById("pause").style.display = "none";
-    document.getElementById("play").style.display= "block";
-});
+music();
